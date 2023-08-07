@@ -20,25 +20,25 @@ This is a job portal application which allows users to track job history and all
 
 # Steps to run this 
   1) Clone this repository on your local system:
-      git clone <repo_address>
+      ## git clone <repo_address> ##
      
   2) Download package.json at the root of the folder by running the command:
-      npm init
+      ##  npm init ##
 
   3) Create a .env folder in the root of the main folder. Structure should be in this manner:
-      PORT=9000
-      DATABASE= YOUR_MONGODB_CONNECTING_STRING
-      JWT_SECRET=fidbfbFCDSm1558
-      NODE_ENV=development 
+      ## PORT=9000 ##
+      ## DATABASE= YOUR_MONGODB_CONNECTING_STRING ##
+      ## JWT_SECRET=fidbfbFCDSm1558 ##
+      ## NODE_ENV=development ##
 
   4) At the root of the main folder run the command:
-      npm install
+      ## npm install ##
 
   5) In the frontend folder run the command:
-      npm install
+      ## npm install ##
 
   6) Start you server by running the following command:
-      npm start
+      ## npm start  ##
 
      
       
