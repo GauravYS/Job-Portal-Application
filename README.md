@@ -16,4 +16,29 @@ This is a job portal application which allows users to track job history and all
 ![Home Page ](https://github.com/GauravYS/Job-Portal-Application/assets/116845183/fd1df3a8-b7a2-49de-b7c3-1b40592c4514)
 ![Applied jobs list ](https://github.com/GauravYS/Job-Portal-Application/assets/116845183/48a05000-414e-4051-b515-0dfe1aa27a04)
 
+# Tech Stack used - MongoDb , Express.js, React,js, Node.js, Material UI.
 
+# Steps to run this 
+  1) Clone this repository on your local system:
+      git clone <repo_address>
+     
+  2) Download package.json at the root of the folder by running the command:
+      npm init
+
+  3) Create a .env folder in the root of the main folder. Structure should be in this manner:
+      PORT=9000
+      DATABASE= YOUR_MONGODB_CONNECTING_STRING
+      JWT_SECRET=fidbfbFCDSm1558
+      NODE_ENV=development 
+
+  4) At the root of the main folder run the command:
+      npm install
+
+  5) In the frontend folder run the command:
+      npm install
+
+  6) Start you server by running the following command:
+      npm start
+
+     
+      
